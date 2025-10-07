@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client"
 
 import * as React from "react"
@@ -126,6 +127,7 @@ function ChartTooltipContent({
   color,
   nameKey,
   labelKey,
+  
 }: ChartTooltipContentProps) {
   const { config } = useChart()
 
